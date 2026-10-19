@@ -1,0 +1,41 @@
+{
+  "name": "heishenhua-houji",
+  "private": true,
+  "version": "1.0.0",
+  "description": "黑神话：猴急 — 一款认真做了 UI 的抽象低模西游动作 RPG。非官方恶搞同人作品。",
+  "type": "module",
+  "homepage": "https://real-benguo.github.io/heishenhua-houji/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/real-benguo/heishenhua-houji.git"
+  },
+  "author": "real-benguo / 花果山第七制片厂",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174"
+  },
+  "keywords": [
+    "threejs",
+    "game",
+    "webgl",
+    "rpg",
+    "parody",
+    "black-myth",
+    "monkey"
+  ],
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/ma-shan-zheng": "^5.3.1",
+    "@fontsource/noto-serif-sc": "^5.3.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1",
+    "vite": "^7.3.5"
+  }
+}
