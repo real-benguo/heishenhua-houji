@@ -12,7 +12,10 @@
 
 ## 立即游玩
 
-**在线地址：** [https://real-benguo.github.io/heishenhua-houji/](https://real-benguo.github.io/heishenhua-houji/)
+**在线地址：** [https://real-benguo.github.io/heishenhua-houji/](https://real-benguo.github.io/heishenhua-houji/)  
+**扫码游玩：**
+
+[![扫码进入花果山人才市场](docs/qr-card.png)](https://real-benguo.github.io/heishenhua-houji/)
 
 推荐使用手机横屏游玩，或桌面 Chrome / Edge。  
 第一次进入游戏会下载约 20–40 MB 的字体与脚本资源（主要是中文字体），请耐心等待。
