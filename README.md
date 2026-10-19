@@ -90,12 +90,12 @@ npm run preview
 `dist/` 可以直接部署到任意静态站点托管。本项目使用 GitHub Pages：
 
 - `main` 分支保存源代码。
-- `gh-pages` 分支保存构建后的静态站点。
+- 构建产物同步在 `docs/` 目录，GitHub Pages 从 `main` 的 `/docs` 目录发布。
 - Vite 使用相对资源路径，因此可部署在子目录下。
 
 ```bash
 npm run build
-# 将 dist/ 的内容发布到 gh-pages 分支
+# 将 dist/ 的内容同步到 docs/ 后提交
 ```
 
 ## 技术
