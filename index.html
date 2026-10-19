@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#07090a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="《黑神话：猴急》——一款把 UI 做得很认真、把猴子做得很随便的 3D 抽象动作 RPG。非官方恶搞作品。" />
+    <meta property="og:title" content="黑神话：猴急 · BLACK MYTH: MONKEY RUSH" />
+    <meta property="og:description" content="六根未净，班还没下。手机端 3D 抽象动作 RPG。" />
+    <meta property="og:type" content="website" />
+    <title>黑神话：猴急 · BLACK MYTH: MONKEY RUSH</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230b0c0b'/%3E%3Ccircle cx='32' cy='30' r='19' fill='%235a3b26'/%3E%3Cellipse cx='32' cy='34' rx='13' ry='11' fill='%23d8a677'/%3E%3Cpath d='M15 25c3-11 31-11 34 0' stroke='%23d9ad58' stroke-width='3' fill='none'/%3E%3Ccircle cx='26' cy='32' r='2' fill='%23161310'/%3E%3Ccircle cx='38' cy='32' r='2' fill='%23161310'/%3E%3Cpath d='M28 41c2 2 6 2 8 0' stroke='%23512a1e' stroke-width='2' fill='none'/%3E%3C/svg%3E" />
+    <script type="module" crossorigin src="./assets/index-X4-UVrkp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DrnLuzeo.css">
+  </head>
+  <body>
+    <div id="boot" aria-hidden="true">
+      <div class="boot-mark">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="1" opacity=".35" />
+          <circle cx="60" cy="60" r="45" fill="none" stroke="currentColor" stroke-width=".5" stroke-dasharray="2 6" opacity=".3" />
+          <text x="60" y="79" text-anchor="middle" font-size="56" fill="currentColor" font-family="serif">猴</text>
+        </svg>
+      </div>
+      <div class="boot-title">黑神话 <span>·</span> 猴急</div>
+      <div class="boot-sub">BLACK MYTH : MONKEY RUSH</div>
+      <div class="boot-line"><i></i></div>
+      <div class="boot-status">正在唤醒一只不想上班的猴子……</div>
+      <div class="boot-legal">非官方恶搞同人作品 · 与《黑神话：悟空》及游戏科学无关</div>
+    </div>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="黑神话猴急 3D 游戏画面"></canvas>
+      <div id="ui-root"></div>
+      <div id="fade-layer" aria-hidden="true"></div>
+      <div id="grain" aria-hidden="true"></div>
+      <div id="rotate-overlay" aria-hidden="true">
+        <div class="rotate-card">
+          <div class="rotate-icon" aria-hidden="true"><i></i></div>
+          <div class="rotate-title">请横屏，猴命关天</div>
+          <div class="rotate-sub">竖屏也能玩，但猴子会显得很长。</div>
+          <button class="rotate-anyway" id="rotate-anyway">我就要竖着玩</button>
+        </div>
+      </div>
+    </div>
+    <noscript>请启用 JavaScript 以进入花果山人才市场。</noscript>
+  </body>
+</html>
